@@ -1,7 +1,7 @@
 ## Applied Cryptography 
 Project developed under the discipline of Computer Systems Security of the Master's Degree in Informatics Engineering (University of Minho).
 
-This project consists of a solutions set of applied cryptography exercises in Java. Multiple cryptographic mechanisms and variants are used according to the intended objectives (e.g. encrypt/decrypt documents, communication confidentiality, authentication of elements, attack prevention, etc.), different implementation models (sequential and distributed), applied appropriate libraries and also performed own implementations of cryptographic functionalities. Test classes, scripts and jars are also provided that allow the rapid, modular and simplified use of the proposed solutions.
+This project consists of a solution set of applied cryptography exercises in Java. Multiple cryptographic mechanisms and variants are used according to the intended objectives (e.g. encrypt/decrypt documents, communication confidentiality, authentication of elements, attack prevention, etc.), different implementation models (sequential and distributed), applied appropriate libraries and also performed own implementations of cryptographic functionalities. Test classes, scripts and jars are also provided that allow the rapid, modular and simplified use of the proposed solutions.
 
 *Used Technologies: Java, Shell Script, JCA/JCE, openssl, TLS/SSL, RC4, AES/(CBC/CFB8/CFB)/(NoPadding/PKCS5Padding), RSA, SHA-128, SHA-256, Diffie-Hellman, Station-to-Station, MAC/HMAC, X509 certificates, IntelliJ IDEA, GitHub, Trello, LaTeX, Texmaker, among others.*
 
