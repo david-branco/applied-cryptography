@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Guiao_4:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Guiao_4_jar</output-path>
+    <root id="archive" name="Guiao_4.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/clientcert/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="Guiao_4" />
+    </root>
+  </artifact>
+</component>

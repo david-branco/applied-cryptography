@@ -1,0 +1,21 @@
+openssl genrsa -out grupo2772025322.key
+openssl pkcs8 -topk8 -nocrypt -in grupo2772025322.key -outform der -out grupo2772025322PrivKey.der
+openssl req -new -key grupo2772025322.key -out grupo2772025322.csr
+
+27720 25322
+
+
+openssl verify -CAfile grupo2772025322.crt grupo2772025322.pem
+
+
+
+/* old 
+sudo cp grupo2772025322.crt /usr/local/share/ca-certificates/grupo2772025322.crt
+sudo update-ca-certificates*/
+
+/* new */
+sudo cp grupo2772025322.crt  /usr/share/ca-certificates/extra/grupo2772025322.crt
+sudo dpkg-reconfigure ca-certificates
+
+openssl pkcs12 -export -chain -CAfile cacert.pem -name grupo2772025322 -aes128 -inkey grupo2772025322.key -in grupo2772025322.crt -out grupo2772025322.p12
+
